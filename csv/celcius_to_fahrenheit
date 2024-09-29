@@ -1,0 +1,9 @@
+import pandas as pd
+
+df = pd.read_csv('weather_data.csv')
+print(type(df))
+
+monday = df[df.day == "Monday"]
+c_temp = monday.temp
+f_temp = c_temp *9/5+32
+print(f_temp)
