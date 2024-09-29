@@ -2,7 +2,7 @@
 
 import pandas as pd
 
-df = pd.read_csv("csv/2018_Central_Park.csv")
+df = pd.read_csv("2018_Central_Park.csv")
 gray = df[df["Primary Fur Color"] == "Gray"]
 white = df[df["Primary Fur Color"] == "Black"]
 cinnamon = df[df["Primary Fur Color"] == "Cinnamon"]
